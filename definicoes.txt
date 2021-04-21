@@ -1,0 +1,28 @@
+1 - yarn init -y --> inicializa o projeto
+
+obs: o -D é de desenvolvimento
+
+2 - express - micro framework
+    yarn add express --> adiciona o express no projeto
+
+3 - import express from ..."express";
+    toda vez que tiver esses tres ponto no import vc tem que
+    adicionar as tipagem
+    yarn add @types/express -D
+
+4 - antes de executar seu projeto vc tem que instalar o typescript
+    yarn add typescript -D
+     yarn tsc --init
+     tsconfig.json
+        "strict": false --> vem default true
+
+5 - yarn add ts-node-dev -D
+    logo apos vc vai no package.json e realiza as seguintes conf:
+    "scripts":{
+        "dev": "ts-node-dev src/server.ts"
+    },
+        logo apos para rodar o server vc da o comando:
+        yarn dev
+
+pkill node --> serve para mardar alguma aplicacao node que esta rodando
+
