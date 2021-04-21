@@ -26,3 +26,7 @@ obs: o -D é de desenvolvimento
 
 pkill node --> serve para mardar alguma aplicacao node que esta rodando
 
+resquest --> tudo que ta vindo da requisicao
+response --> tudo que eu vou  retornar para o usuario
+
+testar o /users no insomnia
